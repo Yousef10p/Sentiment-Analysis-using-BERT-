@@ -25,7 +25,7 @@ BERTSentiment fetches a random title from the **top 100 movies and top 100 TV se
 
 <!-- Architecture diagram: drop assets/architecture.png then uncomment the block below -->
 <div align="center">
-<img src="assets/architecture.png" alt="Architecture Diagram" width="700"/>
+<img src="assets/Architecture.png" alt="Architecture Diagram" width="700"/>
 </div>
 <br>
 
