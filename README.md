@@ -1,10 +1,20 @@
+---
+title: BERT Sentiment Analysis
+emoji: 🎬
+colorFrom: red
+colorTo: green
+sdk: streamlit
+app_file: app.py
+pinned: false
+---
+
 <div align="center">
 
 # BERT Sentiment Analysis
 
 **Real-time sentiment analysis on top-rated movies & TV series — powered by a fine-tuned BERT model.**
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://bertsentiment.streamlit.app)
+[![HuggingFace Space](https://img.shields.io/badge/🤗%20HuggingFace-Space-blue)](https://US10F-bert-sentiment.hf.space)
 
 ---
 
@@ -35,7 +45,7 @@ BERTSentiment fetches a random title from the **top 100 movies and top 100 TV se
 | **Classification head** | Linear layer → 2 logits (Negative / Positive) |
 | **Tokenizer** | `BertTokenizerFast` — WordPiece, max 512 tokens |
 | **Inference** | `torch.no_grad()` + softmax over logits |
-| **Frontend** | Streamlit — cached model load via `@st.cache_resource` |
+| **Frontend** | Streamlit on HuggingFace Spaces — cached model load via `@st.cache_resource` |
 | **Content API** | TMDB `/movie/top_rated` + `/tv/top_rated`, pages 1–5, cached 1 h |
 
 The app loads the model once at startup and reuses it for every review. TMDB's top-rated lists are fetched once per hour so the pool of titles stays fresh without hammering the API.
@@ -100,6 +110,12 @@ Loss dropped sharply from ~0.39 in the first steps to ~0.14 by the end of epoch 
 | Best eval loss | 0.2687 (epoch 2) |
 | Final training loss (3 epochs) | 0.1736 |
 | Total training steps | 9,375 |
+
+---
+
+## Live Demo
+
+> **[https://US10F-bert-sentiment.hf.space](https://US10F-bert-sentiment.hf.space)**
 
 ---
 

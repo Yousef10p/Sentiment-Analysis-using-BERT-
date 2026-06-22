@@ -1,3 +1,4 @@
+import os
 import random
 import requests
 import streamlit as st
@@ -13,7 +14,7 @@ from transformers import (
 # -------------------------
 
 MODEL_PATH = "US10F/bert-imdb-sentiment"
-TMDB_API_KEY = st.secrets["TMDB_API_KEY"]
+TMDB_API_KEY = os.environ.get("TMDB_API_KEY")
 
 # -------------------------
 # LOAD MODEL

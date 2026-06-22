@@ -1,8 +1,7 @@
 streamlit
-datasets==3.6.0
-huggingface_hub==0.34.4
+requests
+torch --index-url https://download.pytorch.org/whl/cpu
 transformers==4.55.4
+huggingface_hub==0.34.4
 accelerate==1.10.1
-evaluate==0.4.5
-torch
 safetensors
