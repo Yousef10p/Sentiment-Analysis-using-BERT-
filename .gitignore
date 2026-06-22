@@ -30,3 +30,6 @@ bert_imdb/
 # OS
 .DS_Store
 Thumbs.db
+
+# Assets — kept on GitHub only, not needed for the Space to run
+assets/
