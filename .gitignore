@@ -13,6 +13,9 @@ build/
 # Jupyter
 .ipynb_checkpoints/
 
+# Model weights — hosted on HuggingFace Hub, not stored in git
+bert_imdb_model/model.safetensors
+
 # Training checkpoints — large optimizer states
 bert_imdb/
 

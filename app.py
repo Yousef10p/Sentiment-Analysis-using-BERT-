@@ -12,7 +12,7 @@ from transformers import (
 # CONFIG
 # -------------------------
 
-MODEL_PATH = "bert_imdb_model"
+MODEL_PATH = "US10F/bert-imdb-sentiment"
 TMDB_API_KEY = st.secrets["TMDB_API_KEY"]
 
 # -------------------------
