@@ -1,1 +1,2 @@
 # No LFS — model is served from HuggingFace Hub
+*.png filter=lfs diff=lfs merge=lfs -text
