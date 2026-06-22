@@ -4,7 +4,7 @@
 
 **Real-time sentiment analysis on top-rated movies & TV series — powered by a fine-tuned BERT model.**
 
-[![HuggingFace Space](https://img.shields.io/badge/🤗%20HuggingFace-Space-blue)](https://US10F-bert-sentiment.hf.space)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://US10F-bert-sentiment.hf.space)
 
 ---
 
