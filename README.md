@@ -1,13 +1,3 @@
----
-title: BERT Sentiment Analysis
-emoji: 🎬
-colorFrom: red
-colorTo: green
-sdk: streamlit
-app_file: app.py
-pinned: false
----
-
 <div align="center">
 
 # BERT Sentiment Analysis
